@@ -80,7 +80,6 @@ PRODUCT_PACKAGES += \
     RCSBootstraputil \
     RcsImsBootstraputil \
     TimeService \
-    Tycho \
     CNEService \
     ConnMO \
     DCMO \
