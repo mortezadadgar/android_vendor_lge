@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/lge/bullhead/proprietary/bin/qmakernote-xtract:system/bin/qmakernote-xtract \
     vendor/lge/bullhead/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/lge/bullhead/proprietary/bin/radish:system/bin/radish \
     vendor/lge/bullhead/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/bullhead/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/lge/bullhead/proprietary/bin/thermal-engine:system/bin/thermal-engine \
