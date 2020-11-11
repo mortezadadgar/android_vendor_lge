@@ -77,7 +77,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     HiddenMenu \
     RCSBootstraputil \
-    RcsImsBootstraputil \
     CNEService \
     ConnMO \
     DCMO \
@@ -89,13 +88,12 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleWCD9330 \
     LifeTimerService \
     SprintDM \
-    atfwd \
     qcrilmsgtunnel \
     cneapiclient \
     com.google.android.camera.experimental2016 \
-    qcrilhook \
-    rcsimssettings \
-    rcsservice
+    rcsservice \
+    qcrilhook
+
 PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/lge/bullhead/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
@@ -510,5 +508,4 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
-    datastatusnotification \
-    ims
+    datastatusnotification
